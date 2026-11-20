@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hanging Surf Club — Surf Classes in Sanur, Canggu &amp; Kuta, Bali</title>
+<meta name="description" content="Small group surf classes in Bali, two students to one coach. 2-hour sessions with optional drone footage and video analysis. Book on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#F7F5EF;color:#143F48;font-family:Inter,system-ui,sans-serif;font-size:16px;line-height:1.6}
+a{color:#143F48}a:hover{color:#A85A30}
+.wrap{max-width:1200px;margin:0 auto}
+.narrow{max-width:1000px;margin:0 auto}
+.display{font-family:Archivo,sans-serif;font-weight:900;line-height:1.1;margin:0}
+.eyebrow{margin:0;font-size:14px;font-weight:700;letter-spacing:.14em;color:#A85A30}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 24px;border-radius:999px;font-weight:700;text-decoration:none}
+.btn-accent{background:#E8A87C;color:#143F48}.btn-accent:hover{background:#F0BC97;color:#143F48}
+.btn-ghost{border:2px solid #F7F5EF;color:#F7F5EF;font-weight:600}.btn-ghost:hover{background:rgba(247,245,239,.1);color:#F7F5EF}
+header{background:#143F48;color:#F7F5EF}
+nav{padding:18px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px}
+.logo{font-family:Archivo,sans-serif;font-weight:900;font-size:20px;letter-spacing:.04em;color:#F7F5EF;text-decoration:none}
+.navlinks{display:flex;flex-wrap:wrap;align-items:center;gap:24px;font-size:15px;font-weight:500}
+.navlinks a:not(.btn){color:#F7F5EF;text-decoration:none}
+.hero{background:#143F48;color:#F7F5EF;padding:56px 24px 96px}
+.hero .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:48px}
+.hero-text{flex:1 1 460px;min-width:0;display:flex;flex-direction:column;gap:24px}
+.hero h1{font-size:clamp(2.6rem,6vw,4.6rem);line-height:1.02}
+.hero p.lead{margin:0;max-width:34rem;font-size:19px;color:#D9E4E4}
+.hero-video{flex:0 1 380px;min-width:0;display:flex;justify-content:center;margin:0 auto}
+.hero-video video{display:block;width:100%;max-width:380px;aspect-ratio:9/16;max-height:640px;object-fit:cover;border-radius:24px;background:#1E5560;box-shadow:0 20px 48px rgba(0,0,0,.35)}
+.cards{margin:-48px auto 0;display:flex;flex-wrap:wrap;gap:16px;padding:0 24px}
+.card{flex:1 1 240px;background:#fff;border-radius:16px;padding:24px;box-shadow:0 6px 24px rgba(20,63,72,.10)}
+.card b{display:block;font-family:Archivo,sans-serif;font-weight:800;font-size:28px;margin-bottom:4px}
+.card span{color:#4A6A70}
+section{padding:80px 24px}
+.stack{display:flex;flex-direction:column;gap:28px}
+h2.display{font-size:clamp(2rem,4vw,3rem)}
+.muted{margin:0;color:#4A6A70}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;padding:6px;background:#E6ECEA;border-radius:999px;align-self:flex-start}
+.tabs button{min-height:44px;padding:0 22px;border:0;border-radius:999px;cursor:pointer;font:inherit;font-weight:700;font-size:15px;background:transparent;color:#143F48}
+.tabs button[aria-pressed="true"]{background:#143F48;color:#F7F5EF}
+.table-box{overflow-x:auto;border-radius:16px;background:#fff;box-shadow:0 6px 24px rgba(20,63,72,.08)}
+table{width:100%;min-width:560px;border-collapse:collapse}
+th{background:#143F48;color:#F7F5EF;font-size:13px;letter-spacing:.08em;text-align:left;padding:18px 24px}
+td{padding:18px 24px;white-space:nowrap}
+tbody tr:nth-child(odd){background:#EEF2F0}
+tr.best{font-weight:700}
+.badge{display:inline-block;margin-left:8px;font-size:12px;font-weight:700;padding:2px 10px;border-radius:999px;background:#F3D9C6;color:#7A3E1C}
+.bonus{background:#143F48;color:#D9E4E4;border-radius:16px;padding:24px 28px}
+.bonus p{margin:0 0 6px}.bonus p:last-child{margin:0}
+.bonus strong,.bonus .t{color:#F7F5EF}
+.bonus .t{font-family:Archivo,sans-serif;font-weight:800;font-size:20px}
+.included{background:#fff}
+.items{display:flex;flex-wrap:wrap;gap:16px}
+.item{flex:1 1 200px;display:flex;gap:12px;align-items:flex-start;padding:20px;border-radius:14px;background:#F7F5EF}
+.item svg{flex:none;margin-top:2px}
+.cols{display:flex;flex-wrap:wrap;gap:32px}
+.col{flex:1 1 420px;min-width:0;display:flex;flex-direction:column;gap:14px}
+.col p{margin:0}
+.cta{padding:0 24px 80px}
+.cta-box{background:#143F48;color:#F7F5EF;border-radius:24px;padding:48px 32px;display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center}
+.cta-box h2{font-size:clamp(1.8rem,3.5vw,2.6rem)}
+.cta-box p{margin:0;max-width:36rem;color:#D9E4E4}
+footer{background:#0E2E35;color:#B9CCCC;padding:28px 24px;font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+footer a{color:#E8A87C}
+.wa-float{position:fixed;right:18px;bottom:18px;width:58px;height:58px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.25);z-index:10}
+</style>
+</head>
+<body>
+
+<header>
+<nav class="wrap" aria-label="Main">
+<a href="#top" class="logo">HANGING SURF CLUB</a>
+<div class="navlinks">
+<a href="#prices">Prices</a>
+<a href="#included">What's included</a>
+<a href="#policy">Booking policy</a>
+<a class="btn btn-accent wa-link" href="#">Book on WhatsApp</a>
+</div>
+</nav>
+</header>
+
+<main>
+<div id="top" class="hero">
+<div class="wrap">
+<div class="hero-text">
+<p class="eyebrow" style="color:#E8A87C">SURF CLASSES IN SANUR · CANGGU · KUTA</p>
+<h1 class="display">Learn to surf in Bali, two students to one coach.</h1>
+<p class="lead">Small group classes, 2 hours on the water, with optional drone footage and video analysis so you can see exactly what to fix on your next wave.</p>
+<div style="display:flex;flex-wrap:wrap;gap:12px">
+<a class="btn btn-accent wa-link" href="#" style="min-height:52px;font-size:17px">Book your class</a>
+<a class="btn btn-ghost" href="#prices" style="min-height:52px;font-size:17px">See prices</a>
+</div>
+</div>
+<div class="hero-video">
+<video src="hero.mp4" poster="poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Drone footage of a Hanging Surf Club surfer riding a longboard"></video>
+</div>
+</div>
+</div>
+
+<div class="wrap">
+<div class="cards">
+<div class="card"><b>2 : 1</b><span>Two students per coach in every group class.</span></div>
+<div class="card"><b>2 hours</b><span>On the water each session, board included if needed.</span></div>
+<div class="card"><b>Drone + video</b><span>Optional aerial footage and analysis of your surfing.</span></div>
+</div>
+</div>
+
+<section id="prices">
+<div class="narrow stack">
+<div style="display:flex;flex-direction:column;gap:8px">
+<p class="eyebrow">2026 PRICES</p>
+<h2 class="display">Choose your spot and package</h2>
+<p class="muted">All prices are per person, in Indonesian Rupiah (IDR).</p>
+</div>
+<div class="tabs" role="group" aria-label="Location">
+<button type="button" data-loc="sanur" aria-pressed="true">Sanur</button>
+<button type="button" data-loc="canggu" aria-pressed="false">Canggu &amp; Kuta</button>
+</div>
+<div class="table-box">
+<table>
+<thead><tr><th scope="col">PACKAGE</th><th scope="col">CLASS ONLY</th><th scope="col">WITH DRONE + VIDEO ANALYSIS</th></tr></thead>
+<tbody id="price-rows"></tbody>
+</table>
+</div>
+<div class="bonus">
+<p class="t">10-session package bonuses</p>
+<p><strong>With drone:</strong> 1 free session with drone + HSC x UC&amp;CO T-shirt.</p>
+<p><strong>Class only:</strong> 1 free session without drone + HSC x UC&amp;CO T-shirt.</p>
+</div>
+</div>
+</section>
+
+<section id="included" class="included">
+<div class="narrow stack">
+<h2 class="display">What's included</h2>
+<div class="items">
+<div class="item"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A85A30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>2-hour session on the water</span></div>
+<div class="item"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A85A30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2c4 4 5 10 0 20c-5-10-4-16 0-20z"/></svg><span>Surfboard, if needed</span></div>
+<div class="item"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A85A30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11z"/></svg><span>Drinking water, shower and face zinc</span></div>
+<div class="item"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A85A30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9c-4.5-1-8-4-8-9V6z"/></svg><span>No board damage charge, except for snapped boards</span></div>
+</div>
+</div>
+</section>
+
+<section id="policy">
+<div class="narrow cols">
+<div class="col">
+<p class="eyebrow">BOOKING &amp; PAYMENT</p>
+<p>Please read before making payment. <strong>A 50% deposit is required to secure your booking.</strong></p>
+<p><strong>Rescheduling:</strong> request a change by <strong>16:00 Bali time the day before your session.</strong> Cancellations after this deadline, including last-minute cancellations, count as a used session and are non-refundable.</p>
+<p><strong>Refunds are available for:</strong> unsuitable weather; an accident (medical bill or doctor's receipt required); last-minute flight changes (new flight booking required); or cancellation by the coach.</p>
+</div>
+<div class="col">
+<p class="eyebrow">COACH ASSIGNMENT</p>
+<p>Coaches may vary between sessions due to booking demand and scheduling. Hanging Surf Club reserves the right to rotate coaches when needed.</p>
+<p>To request a specific coach or the same coach as your previous session, please tell us <strong>at least 24 hours before your session</strong>, for group or private lessons. Coach changes or requests cannot be made less than 24 hours before the session.</p>
+<p>For group classes, requesting the same coach as your previous session carries an <strong>additional IDR 100,000 fee</strong> and is treated as a private session. Requests are subject to coach availability.</p>
+</div>
+</div>
+</section>
+
+<div class="cta">
+<div class="narrow cta-box">
+<h2 class="display">Spaces are limited. Lock in your slot.</h2>
+<p>Once confirmed, your time slot is reserved for you and a coach is scheduled for your session.</p>
+<a class="btn btn-accent wa-link" href="#" style="min-height:52px;font-size:17px">
+<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#143F48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-13.5 7.8L3 21l1.2-4.5A9 9 0 1 1 21 12z"/></svg>
+Chat on WhatsApp: +62 821-4566-6310</a>
+</div>
+</div>
+</main>
+
+<footer>
+<div class="wrap">
+<span class="logo" style="font-size:16px">HANGING SURF CLUB</span>
+<span>Surf classes in Sanur, Canggu &amp; Kuta, Bali · <a class="wa-link" href="#">+62 821-4566-6310</a></span>
+</div>
+</footer>
+
+<a class="wa-float wa-link" href="#" aria-label="Chat with Hanging Surf Club on WhatsApp">
+<svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-13.5 7.8L3 21l1.2-4.5A9 9 0 1 1 21 12z"/></svg>
+</a>
+
+<script>
+var WA = "https://wa.me/6282145666310?text=" + encodeURIComponent("Hi Hanging Surf Club, I'd like to book a surf class");
+document.querySelectorAll(".wa-link").forEach(function (a) { a.href = WA; a.target = "_blank"; a.rel = "noopener"; });
+
+var PRICES = {
+  sanur:  [[1, 700000, 1100000], [3, 1950000, 3100000], [5, 3200000, 5000000], [10, 6000000, 9800000]],
+  canggu: [[1, 600000, 1000000], [3, 1650000, 2800000], [5, 2700000, 4500000], [10, 5000000, 8500000]]
+};
+function fmt(n) { return "IDR " + n.toLocaleString("en-US"); }
+function render(loc) {
+  var body = document.getElementById("price-rows");
+  body.innerHTML = PRICES[loc].map(function (r) {
+    var best = r[0] === 10;
+    return '<tr' + (best ? ' class="best"' : '') + '><td>' + r[0] + (r[0] === 1 ? ' session' : ' sessions') +
+      (best ? '<span class="badge">+1 FREE SESSION</span>' : '') + '</td><td>' + fmt(r[1]) + '</td><td>' + fmt(r[2]) + '</td></tr>';
+  }).join("");
+  document.querySelectorAll(".tabs button").forEach(function (b) {
+    b.setAttribute("aria-pressed", b.dataset.loc === loc ? "true" : "false");
+  });
+}
+document.querySelectorAll(".tabs button").forEach(function (b) {
+  b.addEventListener("click", function () { render(b.dataset.loc); });
+});
+render("sanur");
+</script>
+</body>
+</html>
